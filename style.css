@@ -1,0 +1,60 @@
+/* Estilos básicos para a navbar */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: justify;
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    overflow-x: auto; /* Permite rolagem horizontal caso necessário */
+}
+
+.navbar a {
+    color: white;
+    padding: 15px 20px;
+    text-decoration: none;
+    display: block;
+}
+
+.navbar a:hover {
+    background-color: #555;
+}
+
+/* Estilos para as seções */
+.section {
+    padding: 80px 20px; /* Espaço extra para acomodar a navbar fixa */
+    margin-top: 50px;
+    max-width: 800px; /* Define uma largura máxima para o conteúdo */
+    margin-left: auto; /* Centraliza horizontalmente */
+    margin-right: auto;
+    text-align: center; /* Alinha o texto das seções ao centro */
+}
+
+/* Estilo para a div dos títulos */
+.titulo {
+    margin: 20px auto; /* Margem de 20px ao redor da div */
+    text-align: justify; /* Centraliza o conteúdo da div */
+}
+
+h2 {
+    color: #333;
+    
+}
+
+.center-image {
+    display: block;        /* Faz a imagem se comportar como um bloco */
+    margin-left: auto;    /* Adiciona margem automática à esquerda */
+    margin-right: auto;   /* Adiciona margem automática à direita */
+    max-width: 100%;      /* Para que a imagem não ultrapasse a largura do seu contêiner */
+    height: auto;         /* Mantém a proporção da imagem */
+}
+
